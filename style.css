@@ -1,0 +1,66 @@
+a{
+    color: black;
+    font-size: 30px;
+}
+a:active{
+    color: yellow;
+    background-color: rgb(23, 24, 23);
+}
+
+input:checked{
+    height: 50px;
+    width: 50px;
+    /* color: red;
+    /* background-color: burlywood; */ not working */
+}
+button:disabled{
+    background: yellow;
+    color:red
+}
+.readPCS input:read-only{
+    background: maroon;
+}
+.focusPCS input:focus{
+    border: none;
+    outline: none;
+    background: rgb(241, 240, 240);
+    color: rgb(149, 149, 154);
+}
+.firstchildPCS input:first-child{
+    background: rgb(43, 228, 43);
+}
+.firstchildPCS input:last-child{
+    background: rgb(121, 94, 77);
+}
+.firstOfType p:first-of-type{
+    background: violet;
+}
+.nthChild p:nth-child(2){
+    background: skyblue;
+}
+.nthLastChild p:nth-last-child(1){
+    background: rgb(222, 17, 17);
+}
+.nthOfType p:nth-of-type(2){
+    background: khaki;
+}
+.nthOfLastType p:nth-last-of-type(2){
+    background: 
+    goldenrod;
+}
+.nthChidEX td{
+    padding: 5px;
+}
+.nthChidEX tr:nth-child(even){
+    background: #e2dede;
+}
+
+.nthChidEX tr:nth-child(odd){
+    background: #899865;
+}
+.nthChidEX td:nth-child(even){
+    background: #d46868;
+}
+.nthChidEX td:nth-child(odd){
+    background: #dcea7d;
+}
